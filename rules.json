@@ -25,6 +25,42 @@
         "urlFilter": "facebook.com",
         "resourceTypes": ["script"]
       }
+    },
+    {
+      "id": 4,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "*://*.youtube.com/pagead/*",
+        "resourceTypes": ["script", "image"]
+      }
+    },
+    {
+      "id": 5,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "*://*.googlesyndication.com/*",
+        "resourceTypes": ["script", "image"]
+      }
+    },
+    {
+      "id": 6,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "*://*.doubleclick.net/*",
+        "resourceTypes": ["script", "image", "media"]
+      }
+    },
+    {
+      "id": 7,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "*://*.gstatic.com/ads/*",
+        "resourceTypes": ["script", "image"]
+      }
     }
   ]
   
